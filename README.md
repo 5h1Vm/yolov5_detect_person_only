@@ -7,12 +7,12 @@ See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on tr
 <details open>
 <summary>Install</summary>
 
-Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
+Clone repo and install [requirements.txt](https://github.com/5h1Vm/yolov5_detect_person_only/blob/master/requirements.txt) in a
 [**Python>=3.7.0**](https://www.python.org/) environment, including
 [**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
 
 ```bash
-git clone https://github.com/ultralytics/yolov5  # clone
+git clone https://github.com/5h1Vm/yolov5_detect_person_only  # clone
 cd yolov5
 pip install -r requirements.txt  # install
 ```
@@ -22,7 +22,7 @@ pip install -r requirements.txt  # install
 <details open>
 <summary>Inference</summary>
 
-YOLOv5 [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36) inference. [Models](https://github.com/ultralytics/yolov5/tree/master/models) download automatically from the latest
+YOLOv5 [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36) inference. [Models](https://github.com/5h1Vm/yolov5_detect_person_onlytree/master/models) download automatically from the latest
 YOLOv5 [release](https://github.com/ultralytics/yolov5/releases).
 
 ```python
@@ -44,9 +44,9 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 </details>
 
 <details>
-<summary>Inference with detect.py</summary>
+<summary>Detect.py</summary>
 
-`detect.py` runs inference on a variety of sources, downloading [models](https://github.com/ultralytics/yolov5/tree/master/models) automatically from
+`detect.py` runs inference on a variety of sources, downloading [models](https://github.com/5h1Vm/yolov5_detect_person_only/tree/master/models) automatically from
 the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases) and saving results to `runs/detect`.
 
 ```bash
